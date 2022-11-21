@@ -3,6 +3,7 @@ using namespace std;
 
 struct Customer
 {
+    string name;
     string sex;
     int tel;
     Customer *next;
